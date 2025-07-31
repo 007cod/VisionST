@@ -5,7 +5,6 @@
 
 ## Introduction
 VisionST coordinates cross-modal traffic prediction with interactive geo-image encoding.
-Notably, we show that spatiotemporal graphs can be patched on the spatial dimension, effectively reducing complexity in attention.
 
 <p align="center">
 <img src="./images/framework.png" height = "300" alt="" align=center />
@@ -26,7 +25,7 @@ Notably, we show that spatiotemporal graphs can be patched on the spatial dimens
 ```tex
 └── code-and-data
     ├── config                 # Including detail configurations
-    ├── cpt                    # Storing pre-trained weight files (manually create the folder and download files)
+    ├── cpt                    # Storing trained weight files
     ├── data                   # Including traffic data (download), adj files (generated), geo-image data, and the meta data
     ├── lib
     │   |──  utils.py          # Codes of preprocessing datasets and calculating metrics
