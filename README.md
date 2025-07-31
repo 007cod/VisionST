@@ -8,7 +8,7 @@ VisionST coordinates cross-modal traffic prediction with interactive geo-image e
 Notably, we show that spatiotemporal graphs can be patched on the spatial dimension, effectively reducing complexity in attention.
 
 <p align="center">
-<img src="./image/frame.png" height = "300" alt="" align=center />
+<img src="./images/framework.png" height = "300" alt="" align=center />
 </p>
 
 - VisionST is composed of three main components: (1) Multi-modal Embedding, which consists of spatiotemporal embedding and image embedding, aims to transform the traffic data into a high-dimensional representation, thereby facilitating more effective learning of complex patterns. (2) Vision-Augmented Layer, which extracts node-level visual tokens from geo-images and integrates them into spatiotemporal representations, enriching the feature space with localized environmental context. (3) Pattern Interaction Layer, which generates relation patterns that encompass visual, spatial, and temporal aspects, constrains nodes to interact with them for contextual information interaction.
