@@ -1,0 +1,12 @@
+matplotlib
+osmnx
+torch
+torchvision
+scikit-learn
+pandas
+numpy
+folium
+webdriver_manager
+einops
+reformer_pytorch
+timm
